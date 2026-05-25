@@ -1,0 +1,44 @@
+# Root Git Ignore Configurations
+
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Local Environment Variables
+.env
+.env*.local
+.env.development
+.env.production
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and Diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Workspace Caches
+.claude/
+.gemini/
+.sass-cache/
+
+# Mobile Cache & Native Builds (safety backup)
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/ios/
+mobile/android/
